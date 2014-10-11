@@ -1,9 +1,9 @@
 created: 20141009092305774
 creator: iani
-modified: 20141010051807732
+modified: 20141011190500822
 modifier: iani
 tags: [[Customizing TW5]]
-title: Customizing the Side Bar Lists
+title: Customizing the Tabs of the Side Bar
 type: text/vnd.tiddlywiki
 
 To customize the Tabs that appear in the Side Bar, edit the tiddler [[$:/core/ui/SideBarLists]]. By default, the SideBar lists in its tabs those tiddlers which are tagged by ``tag $:/tags/SideBar``. This is done through the following code: 
