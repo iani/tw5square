@@ -7,4 +7,4 @@ git checkout gh-pages
 git merge master
 git push origin gh-pages
 git checkout master
-# rsync -avz ../readonly/output/index.html iani@larigot.avarts.ionio.gr:/Library/WebServer/Documents/users/iani/wikis/template.html
+rsync -avz ../readonly/output/index.html iani@larigot.avarts.ionio.gr:/Library/WebServer/Documents/users/iani/wikis/tw5square.html
