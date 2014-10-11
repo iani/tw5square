@@ -1,0 +1,25 @@
+{
+    "plugins": [
+        "tiddlywiki/tiddlyweb",
+        "tiddlywiki/filesystem",
+        "tiddlywiki/codemirror",
+        "tiddlywiki/highlight"
+    ],
+    "themes": [
+		"tiddlywiki/nighttime",
+		"tiddlywiki/stickytitles",
+        "tiddlywiki/centralised",
+        "tiddlywiki/readonly",
+        "tiddlywiki/seamless",
+        "tiddlywiki/snowwhite",
+        "tiddlywiki/starlight",
+        "tiddlywiki/stickytitle",
+       "tiddlywiki/vanilla"
+   ],
+    "includeWikis": [
+        "../pages"
+    ],
+    "config": {
+        "default-tiddler-location": "../pages/tiddlers"
+    }
+}
