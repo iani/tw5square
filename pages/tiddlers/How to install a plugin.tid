@@ -1,0 +1,9 @@
+created: 20140419161429368
+modified: 20141006162646787
+tags: node.js Answers
+title: How to install a plugin
+type: text/vnd.tiddlywiki
+
+A simple example that works by dragging a link from a tiddler onto a webpage containing the target wiki is found here: http://tiddlywiki.com/markdowndemo.html
+
+To install plugins contained as files in your Node.js tiddlywiki source directory see also: [[How to install a theme?]].  The procedure for plugins is similar.  See also: [[Enabling an installed theme or plugin]].  

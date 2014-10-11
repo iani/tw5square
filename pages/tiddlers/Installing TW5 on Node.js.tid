@@ -1,0 +1,37 @@
+created: 20141010051947003
+modified: 20141010060043957
+tags: [[TiddlyWiki5 on Node.js]]
+title: Installing TW5 on Node.js
+type: text/vnd.tiddlywiki
+
+!!Step 1: Install node.js on your computer
+
+The homepage of node.js is: http://nodejs.org
+
+Summary: 3 ways to install node.js:
+
+*Option 1: Use a pre-compiled installer package: http://nodejs.org/download/
+
+*Option 2: Install from github.  See instructions at: http://howtonode.org/how-to-install-nodejs
+
+*Option 3: Using [[homebrew|http://brew.sh/]].  Run this command on a shell:
+
+```
+brew install node
+```
+
+!!Step 2: Install ~TiddlyWiki5 for node.js from npm
+
+Full instructions: https://www.npmjs.org/package/tiddlywiki
+
+To install ~TiddlyWiki5 for all users on a MacOS or Linux computer, run this shell command: 
+
+```
+sudo npm install -g tiddlywiki
+```
+
+On Windows, run this command: 
+
+```
+npm install -g tiddlywiki
+```

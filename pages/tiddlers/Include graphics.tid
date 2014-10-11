@@ -1,0 +1,7 @@
+created: 20140418120339880
+modified: 20140419184158563
+tags: Questions
+title: Include graphics
+type: text/vnd.tiddlywiki
+
+Besides inlined bitmaps and svg graphics, how to set the position and scale the size of a jpg, png, or pdf image that is included via a link to a file inside a tiddler? 

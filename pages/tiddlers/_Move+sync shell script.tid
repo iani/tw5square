@@ -1,0 +1,12 @@
+created: 20141008102844182
+modified: 20141008105559847
+tags: [[html publish to server]] [[HTML publish workflow 2]]
+title: _Move+sync shell script
+type: text/vnd.tiddlywiki
+
+This is a draft for a shell script that moves the latest saved file from the ``~/Downloads`` folder to a temporary sync folder and subsequently performing sync from that folder to larigot.
+
+```
+mv $HOME/Downloads/`ls -t ~/Downloads | head -n 1` $HOME/wiki_transfer/<wikiname>.html
+rsync -avz $HOME/wiki_transfer/ iani@larigot.avarts.ionio.gr:/Library/WebServer/Documents/users/iani/wikis/
+```

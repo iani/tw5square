@@ -1,0 +1,22 @@
+created: 20140418113638515
+modified: 20141006162529561
+tags: Answers
+title: Creating a new Node.js ~TiddlyWiki
+type: text/vnd.tiddlywiki
+
+From http://www.rosehosting.com/blog/install-and-run-tiddlywiki-on-a-centoos-6-vps-using-nginx/ : 
+
+Set-up a new wiki using the following commands: 
+
+1. Create a new wiki inside a folder "mywiki": 
+
+```
+tiddlywiki mywiki --init
+```
+
+2. Start a server for viewing the new wiki "mywiki": 
+
+ 
+```
+tiddlywiki mywiki --server
+```

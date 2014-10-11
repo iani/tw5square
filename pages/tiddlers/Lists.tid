@@ -1,0 +1,17 @@
+created: 20141009091336504
+modified: 20141009092233934
+tags: [[Special Tiddler Elements: Lists, Tabs, TOCs]]
+title: Lists
+type: text/vnd.tiddlywiki
+
+An example.  
+
+Code:
+
+```
+<$list filter="[tag[Answers]!has[draft.of]]">
+```
+
+Result:
+
+<$list filter="[tag[Answers]!has[draft.of]]">

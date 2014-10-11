@@ -1,0 +1,16 @@
+created: 20141010052020145
+list-after: Installing TW5 on Node.js
+modified: 20141010055946584
+tags: [[TiddlyWiki5 on Node.js]]
+title: Creating a TW5 on Node.js
+type: text/vnd.tiddlywiki
+
+Run this shell command: 
+
+```
+tiddlywiki mynewwiki --init server 
+```
+
+This creates a folder called "mynewwiki" that includes all components needed to run the wiki on a server using node.js.
+
+Reference: http://tiddlywiki.com/#GettingStarted%20-%20Node.js:%5B%5BGettingStarted%20-%20Node.js%5D%5D

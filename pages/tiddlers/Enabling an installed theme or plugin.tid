@@ -1,0 +1,7 @@
+created: 20140419161816222
+modified: 20141006162617144
+tags: node.js Answers
+title: Enabling an installed theme or plugin
+type: text/vnd.tiddlywiki
+
+In the Node.js version, when a theme or plugin has been installed by editing the ``tiddlywiki.info`` file, the Node.js server should be restarted to load the newly specified items.

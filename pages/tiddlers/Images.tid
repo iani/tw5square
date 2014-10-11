@@ -1,0 +1,21 @@
+created: 20141002085114458
+creator: iani
+modified: 20141002085607953
+modifier: iani
+tags: Questions
+title: Images
+type: text/vnd.tiddlywiki
+
+Including images in a tiddler? Use wikitext!
+This:
+
+```
+[img[http://tiddlywiki.com/favicon.ico]]
+```
+
+Displays as this:
+[img[http://tiddlywiki.com/favicon.ico]]
+
+To put the image on a new line, leave an empty line before the link: 
+
+[img[http://tiddlywiki.com/favicon.ico]]

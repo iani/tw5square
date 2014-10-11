@@ -1,0 +1,6 @@
+created: 20140421110642440
+modified: 20140421110718018
+title: General
+type: text/vnd.tiddlywiki
+
+<$list filter="[tag[general]!has[draft.of]]">

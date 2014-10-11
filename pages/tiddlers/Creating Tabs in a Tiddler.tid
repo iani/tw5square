@@ -1,0 +1,15 @@
+created: 20140418105549143
+modified: 20141006162547094
+tags: tabs Answers
+title: Creating Tabs in a Tiddler
+type: text/vnd.tiddlywiki
+
+Use the Tabs macro.  See examples in tiddlers [[About]] and [[listing tiddlers by tag in tabs]]. [[About]] shows a static list of pages as tabs, while [[listing tiddlers by tag in tabs]] shows how to build the list of tabs dynamically by matching all tiddlers that have a given tag. 
+
+Example code: 
+
+``<<tabs "[all[tiddlers+shadows]tag[general]!has[draft.of]]">>
+``
+
+And result:
+<<tabs "[all[tiddlers+shadows]tag[general]!has[draft.of]]">>

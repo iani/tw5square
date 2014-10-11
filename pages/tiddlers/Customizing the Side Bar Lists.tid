@@ -1,0 +1,16 @@
+created: 20141009092305774
+creator: iani
+modified: 20141010051807732
+modifier: iani
+tags: [[Customizing TW5]]
+title: Customizing the Side Bar Lists
+type: text/vnd.tiddlywiki
+
+To customize the Tabs that appear in the Side Bar, edit the tiddler [[$:/core/ui/SideBarLists]]. By default, the SideBar lists in its tabs those tiddlers which are tagged by ``tag $:/tags/SideBar``. This is done through the following code: 
+
+```
+<<tabs "[all[shadows+tiddlers]tag[$:/tags/SideBar]!has[draft.of]]" "$:/core/ui/SideBar/Open" "$:/state/tab/sidebar">>
+```
+
+In the present wiki I have replaced the text "Contents" instead of "$:/core/ui/SideBar/Open", in order to make the [[Contents]] tab be the default open tag when the wiki reloads.
+

@@ -1,0 +1,7 @@
+created: 20140418103518878
+modified: 20141009090750293
+tags: [[Various Notes]]
+title: Answers
+type: text/vnd.tiddlywiki
+
+<$list filter="[tag[Answers]!has[draft.of]]">

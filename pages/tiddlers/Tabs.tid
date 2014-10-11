@@ -1,0 +1,17 @@
+created: 20141009091406432
+modified: 20141009092041038
+tags: [[Special Tiddler Elements: Lists, Tabs, TOCs]]
+title: Tabs
+type: text/vnd.tiddlywiki
+
+An example.
+
+Code: 
+
+```
+<<tabs "Questions Answers Tips/Links General Tests">>
+```
+
+Result: 
+
+<<tabs "Questions Answers Tips/Links General Tests">>

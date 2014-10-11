@@ -1,0 +1,9 @@
+created: 20141008062518074
+modified: 20141010051605814
+tags: [[Wiki sync+server start]] [[TiddlyWiki5 on Node.js]]
+title: Publishing wikis from editable node.js to read-only html
+type: text/vnd.tiddlywiki
+
+Since the save button creates fully functional html files, publish these on the site instead of the node.js versions.  Workflows are listed below:
+
+<<tabs "[tag[html publish to server]]" "HTML publish workflow 1" "" "tc-vertical">>

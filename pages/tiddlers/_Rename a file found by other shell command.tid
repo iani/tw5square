@@ -1,0 +1,13 @@
+created: 20141008091440508
+modified: 20141008102124000
+tags: [[html publish to server]] [[HTML publish workflow 2]]
+title: _Rename a file found by other shell command
+type: text/vnd.tiddlywiki
+
+Start with the examples found here: http://stackoverflow.com/questions/7450818/rename-all-files-in-directory-from-filename-h-to-filename-half.
+
+After some tries, following command is close to the final solution: 
+
+```
+mv $HOME/Downloads/`ls -t ~/Downloads | head -n 1` ./converted_wiki.html
+```

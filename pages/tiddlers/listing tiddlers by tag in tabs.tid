@@ -1,0 +1,13 @@
+created: 20140419145317162
+modified: 20141006162717527
+tags: tags tabs Answers
+title: listing tiddlers by tag in tabs
+type: text/vnd.tiddlywiki
+
+Example code:
+
+``<<tabs "[all[tiddlers+shadows]tag[answers]!has[draft.of]]">>
+``
+
+result:
+<<tabs "[all[tiddlers+shadows]tag[answers]!has[draft.of]]">>

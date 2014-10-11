@@ -1,0 +1,8 @@
+created: 20140421093456586
+modified: 20140421171155892
+title: Tips/Links
+type: text/vnd.tiddlywiki
+
+Things to do next, places with valuable info:
+
+<$list filter="[tag[tips]!has[draft.of]]">
