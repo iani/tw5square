@@ -4,9 +4,9 @@ tags: Tests
 title: Markdown Test
 type: text/x-markdown
 
-This is a test of the new version of the MarkDown plugin. 
+This is a test of the new version of the MarkDown plugin.
 
-See the MarkDown demo [here](http://tiddlywiki.com/plugins/tiddlywiki/markdown/)
+See the MarkDown demo [here](http://tiddlywiki.com/plugins/tiddlywiki/markdown/).
 
 # Title #
 - Item 1
