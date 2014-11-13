@@ -1,0 +1,22 @@
+created: 20141113141735007
+modified: 20141113142018038
+tags: [[Customizing TW5]]
+title: Loading fonts from Google, Typekit etc.
+type: text/vnd.tiddlywiki
+
+Instructions from: https://groups.google.com/forum/#!topic/tiddlywiki/mnC7gOHzv0Y
+
+Create a new tiddler named as you like with the tag ``$:/tags/RawMarkup`` and add the link to your font :
+
+```
+<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+```
+
+And that's pretty much it... Now you can create a new tiddler named as you like with the tag ``$:/tags/Stylesheet`` and put your css in there, for instance :
+
+```
+html span.tc-title{
+  color: red;
+  font-family: "Poiret One", "Impact";
+}
+```
