@@ -1,0 +1,17 @@
+created: 20141121070812242
+modified: 20141121071118272
+tags: $:/_type/tab
+title: test foldable sections in a tiddler
+type: text/vnd.tiddlywiki
+
+<div class="tw-tab-content">
+
+! How-to
+
+<$list filter="[tag[Answers]]">
+
+<$macrocall $name="accordion" caption="description" body={{!!title}} heading="h2" body-class="box yellow"/>
+
+</$list>
+
+</div>
