@@ -1,0 +1,7 @@
+created: 20141213083112508
+modified: 20141213083620463
+tags: $:/tags/Stylesheet
+title: $:/Tiddler Body Font Size
+type: text/css
+
+.tc-tiddler-frame .tc-tiddler-body { font-size: 18px; line-height: 22px; }
