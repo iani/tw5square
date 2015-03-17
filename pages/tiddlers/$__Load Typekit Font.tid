@@ -1,0 +1,8 @@
+created: 20141113123219270
+modified: 20150116072115034
+tags: $:/tags/RawMarkup
+title: $:/Load Typekit Font
+type: text/vnd.tiddlywiki
+
+<script src="//use.typekit.net/zpc1yrj.js"></script>
+<script>try{Typekit.load();}catch(e){}</script>
