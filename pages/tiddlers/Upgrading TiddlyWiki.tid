@@ -1,0 +1,10 @@
+created: 20150406174542428
+modified: 20150406174830252
+tags: [[TiddlyWiki5 on Node.js]]
+title: Upgrading TiddlyWiki
+type: text/vnd.tiddlywiki
+
+
+```
+sudo npm update -g tiddlywiki
+```

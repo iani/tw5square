@@ -1,10 +1,9 @@
-created: 20141007050755364
-modified: 20141007053307036
-tags: [[Wiki sync+server start]]
-title: Run the restart script remotely on larigot
+created: 20150406181848562
+modified: 20150406184203611
+tags: [[remote scripts]]
+title: Send script using pipe (|)
 type: text/vnd.tiddlywiki
 
-''This is probably obsolete: Use launchctl with WatchPaths instead. (Not yet tested)''. See [[Restart tiddlywikis automatically after each rsync]].
 
 See: http://serverfault.com/questions/215756/how-do-i-run-a-local-bash-script-on-remote-machines-via-ssh
 

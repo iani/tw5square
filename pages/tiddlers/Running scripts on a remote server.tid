@@ -1,0 +1,11 @@
+created: 20141007050755364
+modified: 20150406184712407
+tags: [[Wiki sync+server start]]
+title: Running scripts on a remote server
+type: text/vnd.tiddlywiki
+
+There are several cases which require one to run a script on a remote machine, a characteristic one being setting up repositories for updating a site using git.  Here are two ways to run scripts remotely. 
+
+<<tabs "[tag[remote scripts]]" "Send script using cat (<)">>
+
+

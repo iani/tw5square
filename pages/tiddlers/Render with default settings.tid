@@ -1,0 +1,15 @@
+created: 20150406215635615
+modified: 20150407005919907
+title: Render with default settings
+type: text/vnd.tiddlywiki
+
+```
+cd /path/to/wiki/folder/
+tiddlywiki ./ --rendertiddler $:/core/save/all ./index.html text/plain
+```
+
+This renders the wiki in file ``./output/index.html`` inside the wiki folder.
+
+I use this for wikis made after March 2015, with TW version 5.1.7. 
+
+Note: The rendered file will display icons for editing tiddlers, but edits are not saved in the wiki.  The wiki can be downloaded by clicking on the download icon underneath the wiki title. 

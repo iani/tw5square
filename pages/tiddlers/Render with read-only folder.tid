@@ -1,0 +1,16 @@
+created: 20150407010112381
+modified: 20150407010915131
+title: Render with read-only folder
+type: text/vnd.tiddlywiki
+
+```
+cd /path/to/wiki/folder/script-sufolder
+tiddlywiki ../readonly --rendertiddler $:/core/save/all ../../index.html text/plain
+```
+
+This renders the wiki in file ``./index.html`` inside the wiki folder, using the settings and customization tiddlers that are inside folder ``readonly``.  These settings specify different icons for the tiddlers, hiding the edit and remove icons. 
+
+The present wiki uses these settings.  It has 3 subfolder inside the main wiki folder: A ``server`` folder for running the wiki on the local node.js server, a ``pages`` folder that contains the tiddlers of the actual content, and a ``readonly`` folder that contains shadow tiddlers that customize the buttons of the rendered wiki.  Both the server and the readonly folders contain specifications to include the pages tiddlers.  To set up the wiki for using these three folders instead of the default setup, edit the file ``tiddliwiki.info`` inside the wiki folder.  For details see: http://tiddlywiki.com/#TiddlyWikiFolders
+
+The source code for this setup is found here: http://github.com/iani/tw5square.
+
