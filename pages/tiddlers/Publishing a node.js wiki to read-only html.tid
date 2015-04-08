@@ -1,5 +1,5 @@
 created: 20141008062518074
-modified: 20150406214328618
+modified: 20150408164114989
 tags: [[TiddlyWiki5 on Node.js]]
 title: Publishing a node.js wiki to read-only html
 type: text/vnd.tiddlywiki
@@ -11,4 +11,4 @@ Two methods are documented here:
 
 To find out more, select one of the tabs below:
 
-<<tabs "[[Publish using shell script]] [[Publish using download button]]">>
+<<tabs "[[Publish using shell script]] [[Publish using download button]]" "Publish using shell script">>
