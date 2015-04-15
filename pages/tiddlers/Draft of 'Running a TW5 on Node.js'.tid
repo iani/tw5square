@@ -1,0 +1,32 @@
+created: 20141010052030802
+draft.of: Running a TW5 on Node.js
+draft.title: Running a TW5 on Node.js
+list-after: Creating a TW5 on Node.js
+modified: 20150412130538475
+tags: [[Getting started with TW5 on Node.js]]
+title: Draft of 'Running a TW5 on Node.js'
+type: text/vnd.tiddlywiki
+
+!!Running the wiki locally
+On the shell, navigate (``cd``) to the folder that contains the wiki which you want to run.  Then execute this shell command: 
+
+```
+tiddlywiki --server 8080
+```
+
+This starts the wiki on port 8080.  The wiki will be accessible at: 
+
+http://127.0.0.1:8080
+
+Change the port number at will. 
+
+!!Running the wiki on a public server
+
+Example: Execute this shell command: 
+
+```
+tiddlywiki --server 8080 "$:/core/save/all" "text/plain" "text/html" "iani" "" "larigot.avarts.ionio.gr" &
+```
+
+The above would make the wiki available at: http://larigot.avarts.ionio.gr:8080
+

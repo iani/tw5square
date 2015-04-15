@@ -1,0 +1,21 @@
+created: 20150413175301724
+modified: 20150413190354979
+tags: [[Customizing TW5]]
+title: Loading external JavaScript scripts in TW
+type: text/vnd.tiddlywiki
+
+Given a script saved in a file named ``myscript.js``, in order to use it in a ~TiddlyWiki, do the following:
+
+!! Make the script available via http on your system. 
+
+Note: The present instructions are written to work also in cases where  TiddlyWiki is running in a local network without access to the Internet, and where the scripts are served by a local server. 
+
+For example, when running a webserver whose document root is: ``/public_html``, and the script is saved under ``/public_html/myscript.js``, then: 
+
+Create a new tiddler named as you like with the tag ``$:/tags/RawMarkup`` and add the link to your script as code in the body of the tiddler:
+
+```
+<script src="http://localhost/testscript.js"></script>
+```
+
+(Note: The present tiddler is based on [[Using fonts from Google, Typekit etc.]], which in turn is based on https://groups.google.com/forum/#!topic/tiddlywiki/mnC7gOHzv0Y)
